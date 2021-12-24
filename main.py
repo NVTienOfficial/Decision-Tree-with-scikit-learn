@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 from program import train_different_proportion, train_max_depth
 
@@ -20,7 +21,9 @@ def prepare_dataset(filename:str):
     return X, y
 
 if __name__=="__main__":
-    filename = "connect-4.data"
+    os.system('cls')
+
+    filename = "input/connect-4.data"
     X, y = prepare_dataset(filename)
 
     print("Different proportion train/test ----------------------------------------")
