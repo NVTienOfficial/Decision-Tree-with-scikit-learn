@@ -16,4 +16,3 @@ Folder structure:
     |-- model.py
     |-- preprocessing
     |-- program.py
-    |-- README.md
